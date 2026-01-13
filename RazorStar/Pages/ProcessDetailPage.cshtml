@@ -1,0 +1,16 @@
+﻿@page
+@using System.Diagnostics
+@model RazorStar.Pages.ProcessDetailPageModel
+@{
+    Process prcs = (Process)ViewData["Proc"]!;
+}
+
+<div>
+    <h2>Process Detail Page</h2>
+    <div>
+        <h3>@prcs.ProcessName</h3>
+        <p>Id: @prcs.Id</p>
+        <p>Start Time: @prcs.StartTime</p>
+        <p>Total Processor Time: @prcs.TotalProcessorTime</p>
+    </div>
+</div>

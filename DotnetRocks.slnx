@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ConsoleStar/ConsoleStar.csproj" />
+  <Project Path="LibraryStar/LibraryStar.csproj" />
+  <Project Path="RazorStar/RazorStar.csproj" />
+</Solution>
